@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="calc.ico">
+        <!-- hTMLMetaTags -->
+        <meta name="description"
+        content="this is riccardo's Calculator, developed with JS">
+
+    <!-- facebookMetaTags -->
+    <meta property="og:url" content="https://riccardocacio.github.io/TruffleDay/">
+    <meta property="og:type" content="WebApp">
+    <meta property="og:title" content="Calculator">
+    <meta property="og:description"
+        content="this is riccardo's Calculator, developed with JS">
+    <meta property="og:image" content="screenCalc.png">
+
+    <!-- twitterMetaTags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="">
+    <meta property="twitter:url" content="https://riccardocacio.github.io/TruffleDay/">
+    <meta name="twitter:title" content="Calculator">
+    <meta name="twitter:description"
+        content="this is riccardo's Calculator, developed with JS">
+    <meta name="twitter:image" content="screenCalc.png">
+
+    <!-- metaTags-->
+</head>
+
+<body>
+    <h1 id="title">Calculator</h1>
+    <div id="container">
+
+
+        <div id="displayBox">
+            <input type="text" value="" id="display" placeholder="">
+        </div>
+
+        <div id="keyboardsBox">
+            <!--rowOneStart-->
+            <div class="row">
+                <input type="button" value="AC" id="ac">
+                <input type="button" value="DEL" id="del">
+                <input type="button" value="%" id="percentual">
+                <input type="button" value="/" class="number columnStyle">
+            </div>
+            <!--rowOneEnd-->
+
+            <!--rowTwoStart-->
+            <div class="row">
+                <input type="button" value="7" class="number">
+                <input type="button" value="8" class="number">
+                <input type="button" value="9" class="number">
+                <input type="button" value="*" class="number columnStyle">
+            </div>
+            <!--rowTwoEnd-->
+
+            <!--rowThreeStart-->
+            <div class="row">
+                <input type="button" value="4" class="number">
+                <input type="button" value="5" class="number">
+                <input type="button" value="6" class="number">
+                <input type="button" value="-" class="number columnStyle">
+            </div>
+            <!--rowThreeEnd-->
+
+            <!--rowFourStart-->
+            <div class="row">
+                <input type="button" value="1" class="number">
+                <input type="button" value="2" class="number">
+                <input type="button" value="3" class="number">
+                <input type="button" value="+" class="number columnStyle">
+            </div>
+            <!--rowFourEnd-->
+
+            <!--rowFiveStart-->
+            <div class="row">
+                <input type="button" value="0" class="number" id="zeroNumber">
+                <input type="button" value="." class="number">
+                <input type="button" value="=" id="egual">
+            </div>
+            <!--rowFiveEnd-->
+        </div>
+    </div>
+</body>
+
+</html>

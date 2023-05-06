@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(248, 233, 206);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+@media only screen and (max-width: 960px) {
+    body {
+    background-color: #c2e7f7; ;
+    }
+}
+
+#title{
+    color: rgb(72, 146, 236);
+}
+@media only screen and (max-width: 960px) {
+    #title {
+    display: none;
+    }
+}
+
+#container{
+width: 400px;
+    height: 600px;
+    border: solid black 3px;
+    align-self: center;
+    background-color: #c2e7f7;
+}
+@media only screen and (max-width: 960px) {
+    #container {
+    border: none;
+    width: 100%;
+    
+    }
+}
+
+
+#display{
+    background-color: #eaeab8;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    width: 300px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+@media only screen and (max-width: 960px) {
+    #display {
+    width: 97%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    }
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.number{
+    height: 70px;
+    width: 70px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid black 2px;
+    background-color: rgb(231, 228, 228);
+    font-size: 25px;
+}
+
+.number:hover{
+background-color: #f4f1f1;
+}
+
+
+#percentual{
+    height: 70px;
+    width: 70px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid black 2px;
+    background-color: rgb(248, 243, 95);
+    font-size: 25px;
+}
+
+#percentual:hover{
+    background-color: rgb(248, 245, 176);
+    }
+
+#egual{
+    height: 70px;
+    width: 70px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid black 2px;
+    background-color: rgb(246, 162, 59);
+    font-size: 25px;
+}
+
+#egual:hover{
+    background-color: rgb(248, 245, 176);
+    }
+
+#ac{
+    height: 70px;
+    width: 70px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid black 2px;
+    background-color: rgb(248, 243, 95);
+    font-size: 25px;
+}
+
+#ac:hover{
+    background-color: rgb(248, 245, 176);
+    }
+
+#del{
+    height: 70px;
+    width: 70px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid black 2px;
+    background-color: rgb(248, 243, 95);
+    font-size: 25px;
+}
+
+#del:hover{
+    background-color: rgb(248, 245, 176);
+    }
+
+    #zeroNumber{
+        height: 70px;
+        width: 150px;
+        border-radius:50px;
+    }
+
+
+    .columnStyle{
+        background-color: rgb(246, 162, 59);
+        font-size: 30px;
+    }
+    .columnStyle:hover{
+        background-color: #f6c893;
+        }
